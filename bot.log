@@ -1,0 +1,24 @@
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анастасия\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анастасия\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 48, in calculation
+    ans = int(expression[0]) + int(expression[2])
+IndexError: list index out of range
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анастасия\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анастасия\AppData\Local\Programs\Python\Python36\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 60, in calculation
+    ans = int(expression[0]) / int(expression[1])
+ZeroDivisionError: division by zero
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
